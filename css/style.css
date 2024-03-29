@@ -1,0 +1,355 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap'); 
+
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+
+:root {
+    --color-neutral-0: #0e0c0c;
+    --color-neutral-10: #171717;
+    --color-neutral-30: #a8a29e;
+    --color-neutral-40: #f5f5f5;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    scrollbar-width: thin;
+    scrollbar-color: gray;
+}
+
+main {
+  background: #faf7f7;
+}
+
+nav{
+    background: #fafafa;
+    padding: 10px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+}
+
+nav .logo a{
+    text-decoration: none;
+    color: #010101;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+nav ul{
+    display: flex; /* Usado para deixar os tópicas do cabeçalho um do lado do outro */
+    align-items: center;
+    list-style: none;
+    padding: 10px;
+}
+
+nav li{
+    margin-left: 7px; /* Para dar o espaço entre os tópicos */
+}
+
+nav li a{
+    text-decoration: none;
+    color: #010101;
+    font-size: 18px; /* Tamanho da fonte */
+    font-weight: 500; /* Grossura da fonte */
+    padding: 8px /* Para cima */ 15px /* Para os lados */;
+    border-radius: 5px;
+    transition: 0.1s;
+}
+
+nav li a:hover{
+  background-color: #ececec;
+  border-radius: 20px;
+  transition: 0.2s;
+  color: #4267b3;
+}
+
+.conteudo {
+  margin-bottom: 48px;
+  border-top: 0.4px solid #969493;
+}
+
+/* Card */
+
+body {
+  background-color: #faf7f7;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  color: #434343;
+}
+
+
+
+
+  
+  .container {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 200px;
+  }
+
+  .conteudo-principal-escrito-titulo {
+    margin: auto;
+    font-size: 40px;
+    text-align: center;
+    color: black;
+  }
+
+  
+
+  .but {
+    background-color: #ececec;
+    border: none;
+    border-radius: 2rem;
+    color: #4267b3;
+    padding: 16px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 2px 2px;
+    cursor: pointer;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-top: 190px;
+  }
+  
+  .but:hover {
+    background-color: #d1cece;
+    border-radius: 2rem;
+    transition: 0.2s;
+    color: #4267b3;
+  }
+  
+  
+  
+
+  .conteudo-principal-escrito-subtitulo {
+    position: relative;   
+    max-width: 71.875rem;
+    margin: 2.5rem auto;
+    padding: 3rem 1rem;
+    background-color: #dbd9d9;
+    text-align: left;
+    font-size: 20px;
+    color: #010101;
+  }
+  
+  /* Card */
+  .card {
+    width: 350px; /* Tamanho do Card */
+    height: 460px; /* Largura dos lados do card */
+    margin: 30px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    transition: 0.3s;
+  }
+  
+  /* Card Header*/
+  .card-header {
+    width: 100%;
+    height: 200px;
+    text-align: center;
+  }
+  
+  .card-img {
+    min-width: 100%;
+    width: auto;
+    height: 100%;
+  }
+  
+  /* Card Body */
+  .card-body {
+    height: 170px;
+    padding: 15px;
+    text-align: center;
+    align-items: center;
+    font-family: sans-serif;
+    border: none;
+  }
+  
+  .card-local {
+    font-size: 20px;
+    margin: 10px 0;
+  }
+  
+  .card-titulo {
+    text-align: center;
+    font-size: 32px;
+    margin: 15px 0;
+    font-weight: bold;
+  }
+  
+  .card-texto {
+    font-size: 18px;
+    width: 250px;
+    margin: 0 auto;
+    letter-spacing: 1px;
+    text-align: left;
+  }
+
+  .card-2 {
+    width: 350px;
+  }
+
+  .card-3 {
+    width: 350px; /* Tamanho do Card */
+    height: 460px; /* Largura dos lados do card */
+    margin: 30px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    transition: 0.3s;
+  }
+  
+
+/* Footer */
+
+.socials-card {
+  text-align: center;
+}
+
+.footer-desc {
+  color: #202020;
+  font-family: "JetBrains Mono", monospace;
+  font-size: 20px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 20rem;
+  padding: 4rem 0;
+  background-color: #cac8c8;
+  color: #fafafa;
+  font-size: 1.1rem;
+}
+
+
+.footer-link {
+  text-decoration: none;
+  font-family: "JetBrains Mono", monospace;
+  font-weight: bold;
+  color: rgb(15, 140, 182);
+  font-size: 1.3rem;
+}
+
+.footer-socials {
+  margin-top: 1.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+
+.link-footer {
+  text-decoration: none;
+  color: #fafafa;
+  font-size: 25px;
+}
+
+
+/* Hovers do Footer */
+
+.footer-social-linkedin {
+  padding: 18px;
+  background-color: #9d9d9d;
+  border-radius: 50px;
+}
+
+.footer-social-linkedin:hover {
+  background: #055d8b;
+  color: white;
+  border: none;
+}
+
+
+.footer-social-whats-app {
+  padding: 18px;
+  background-color: #9d9d9d;
+  border-radius: 50px;
+}
+
+.footer-social-whats-app:hover {
+  background: #1faf54;
+  color: white;
+  border: none;
+}
+
+.footer-social-git-hub {
+  padding: 18px;
+  background-color: #9d9d9d;
+  border-radius: 50px;
+}
+
+.footer-social-git-hub:hover {
+  background-color: rgb(5, 5, 5);
+  color: white;
+  border: none;   
+}
+
+.footer-social-instagram {
+  padding: 18px;
+  background-color: #9d9d9d;
+  border-radius: 50px;
+}
+
+.footer-social-instagram:hover {
+  background: linear-gradient(#7f37c9, #ff2992, #ff9807);
+  color: white;
+  border: none;
+}
+
+/* Add your existing CSS here */
+
+/* Adjustments for responsiveness */
+
+@media screen and (max-width: 768px) {
+  nav {
+      padding: 10px 20px;
+  }
+  nav .logo a {
+      font-size: 24px;
+  }
+  nav ul {
+      padding: 5px;
+  }
+  nav li a {
+      font-size: 14px;
+      padding: 6px 10px;
+  }
+  main .container {
+      flex-direction: column;
+      align-items: center;
+  }
+  .card {
+      width: 90%;
+      margin: 20px 0;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  nav {
+      padding: 10px;
+  }
+  nav .logo a {
+      font-size: 20px;
+  }
+  nav ul {
+      padding: 3px;
+  }
+  nav li a {
+      font-size: 12px;
+      padding: 5px 8px;
+  }
+  .card {
+      width: 95%;
+  }
+}
